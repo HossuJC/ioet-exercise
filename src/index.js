@@ -1,7 +1,9 @@
 const { getEmployeeCoincidences } = require('./controllers/employee/employee.controller');
 
+const filepath = process.argv[2];
+
 try {
-    coincidencesSets = getEmployeeCoincidences('resources/data.txt');
+    coincidencesSets = getEmployeeCoincidences(filepath || 'resources/data.txt');
 
     for (set of coincidencesSets) {
         console.log('%s: %d', set.pair, set.coincidences);
