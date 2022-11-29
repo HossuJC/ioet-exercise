@@ -1,0 +1,23 @@
+{
+  "name": "ioet-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HossuJC/ioet-exercise.git"
+  },
+  "author": "Josué Cabezas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HossuJC/ioet-exercise/issues"
+  },
+  "homepage": "https://github.com/HossuJC/ioet-exercise#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
